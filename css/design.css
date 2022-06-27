@@ -1,13 +1,88 @@
+/*
+vh vs. % article
+https://stackoverflow.com/questions/31039979/css-units-what-is-the-difference-between-vh-vw-and
+ */
+body {
+    height: 100vh;
+}
+/* row color */
+div.row {
+    border: 1px dashed blue;
+}
+/* cell color */
+div.row > div {
+    border: 1px solid red;
+}
+div.tall-row {
+    height: 300px;
+}
+body {
+    background-color: #F0F0F0;
+}
+.codeup-nav{
+    font-family: "Abel", sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+.nav-link {
+    font-family: "Abel", sans-serif;
+}
 h1 {
     font-family: "Anton";
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
+    font-size: 3.9em;
+    display: grid;
+
+    margin: 1em;
+    text-align: center;
 }
 
 h2 {
     font-family: "Anton";
-    font-size: 1.5em;
-    display: flex;
+    font-size: 2.8em;
+    display: grid;
     justify-content: center;
+    margin: 1em;
+}
+.buttons {
+    font-family: "Anton";
+    font-size: 1em;
+    color: white;
+}
+.design {
+    width: 100px;
+    height: 100px;
+    line-height: 75px;
+    border-radius: 50%;
+    background-color: #E6563B;
+    text-align: center;
+    border: 7px solid white;
+}
+.develop {
+    width: 100px;
+    height: 100px;
+    line-height: 75px;
+    border-radius: 50%;
+    background-color: #EB9D3A;
+    text-align: center;
+    border: 7px solid white;
+}
+.support {
+    width: 100px;
+    height: 100px;
+    line-height: 75px;
+    border-radius: 50%;
+    background-color: #7CB06C;
+    text-align: center;
+    border: 7px solid white;
+}
+.host {
+    width: 100px;
+    height: 100px;
+    line-height: 75px;
+    border-radius: 50%;
+    background-color: #00ABA9;
+    text-align: center;
+    border: 7px solid white;
 }
