@@ -112,3 +112,22 @@ h5{
     text-align: center;
     line-height: 18px;
 }
+
+.d {
+    background-color: #E6563B;
+}
+.d2 {
+    background-color: #EB9D3A;
+}
+.s {
+    background-color: #7CB06C;
+}
+.h {
+    background-color: #00ABA9;
+}
+.col-lg-1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
